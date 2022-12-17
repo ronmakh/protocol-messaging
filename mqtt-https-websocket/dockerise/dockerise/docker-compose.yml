@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  mqtt-service:
+    build: .
+    image: mqtt-publish:0.1
+    container_name: mqtt-service
